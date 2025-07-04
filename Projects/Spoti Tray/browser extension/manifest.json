@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Spotify WebSocket Controller",
+  "version": "1.0",
+  "description": "Control Spotify from a local Python WebSocket server.",
+  "permissions": ["tabs", "scripting", "alarms"],
+  "host_permissions": ["http://localhost:6969/", "https://open.spotify.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Spotify Tray Controller"
+  }
+}
