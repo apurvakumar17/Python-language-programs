@@ -22,3 +22,9 @@ print(letter.values())
 letter["C"] = 3
 print(letter.popitem())
 y = letter.copy()
+
+z = """Apurva
+K"""
+print(z)
+abc = range(10)
+print(print(abc))

@@ -44,5 +44,10 @@ print(di.items())
 text = "Hello, World!" 
 print(text[::2])
 
-t1 = tuple("Apurva")
+t1 = tuple("apurva")
 print(t1)
+
+import numpy as np
+s1 = np.array(t1)
+print(s1)
+print(s1.reshape(2,3))
